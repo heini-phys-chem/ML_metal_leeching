@@ -223,11 +223,9 @@ def plot_learning_curve(results):
 
     # Custom x-axis labels
     #plt.xticks(ns, labels=[str(n) for n in ns])
-    x_ticks = [30, 60, 160]
-#    plt.xticks(x_ticks, labels=[str(x) for x in x_ticks])
-    # Custom x-axis labels
-    plt.gca().xaxis.set_major_locator(FixedLocator(x_ticks))
-    plt.gca().xaxis.set_major_formatter(FixedFormatter([str(n) for n in x_ticks]))
+    x_ticks = [30, 40, 60, 120, 160]
+    x_labels = ['30', '', '60', '120', '160']
+    plt.xticks(x_ticks, labels=[str(x) for x in x_labels])
 
     # Custom y-axis labels
     y_ticks = [3, 4, 5, 6, 7, 8, 9]
