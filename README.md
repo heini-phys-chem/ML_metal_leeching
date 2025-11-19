@@ -217,12 +217,12 @@ python 23_oof_alldata_repeated_ensemble.py
 
 ## Expected Runtime
 
-Approximate execution times (depends on hardware):
+Approximate execution times (depends on hardware) using 8 CPUs:
 
-- **KRR scripts**: 30-60 minutes each (GPU accelerated)
-- **RF scripts**: 15-30 minutes each
-- **XGBoost scripts**: 15-30 minutes each
-- **Ensemble scripts**: 45-90 minutes each
+- **KRR scripts**: 2 minutes each (GPU accelerated)
+- **RF scripts**: 10 minutes each
+- **XGBoost scripts**: 10 minutes each
+- **Ensemble scripts**: 15 minutes each
 - **Plotting scripts**: < 1 minute each
 
 **Total estimated time for full pipeline: ~10-15 hours**
